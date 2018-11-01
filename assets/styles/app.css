@@ -1,0 +1,352 @@
+/* ----------------------------------------------------------------------------
+Name						$Hex		RGB
+-------------------------------------------------------------------------------
+Foam					|	377d8c	|	55,125,140
+Foam (-)				|	49a7b7	|	73,167,183
+Foam (--)				|	4fbdc9	|	
+Title Foam				|	2d6670	|	45,102,112
+
+Green (+)				|	2a7557	|	42,117,87
+Green					|	349973	|	52,153,115
+Green (-)				|	3fb283	|	63,178,131
+
+Text					|	4d4d4d	|	109,110,112
+Base					|	eeeeee	|	238,238,238
+Base (+)				|	e2e2e2	|	226,226,226
+
+Red (++)				|	492525	|	73,37,37
+Red (+)					|	4f1111	|	79,17,17
+Red						|	891b1b	|	137,27,27
+Red (--)				|	f9dede	|	249,222,222
+
+Blue 					|	0f6aa2	|	15,106,162
+Blue (-)				|	169cef	|	22,156,239
+
+Text					|	4d4d4d	|	109,110,112
+Base					|	eeeeee	|	238,238,238
+Base (+)				|	e2e2e2	|	226,226,226
+
+---------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------
+	Actionables
+---------------------------------------------------------------------------- */
+/* Calls to Action */
+.ctas li a { background: rgba(52,153,115,.05); }
+
+	.ctas .svg .icon { fill: #349973; }
+	.ctas a:hover .icon { fill: #3fb283; }
+	
+/* Filters on Results */
+.filters .tabs,
+.filters .tabs-content { background: #377d8c; }
+	
+	/* Accordion system */
+	.stratum-filters .accordion-title[aria-selected=true]:hover { background: #349973;; }
+		.stratum-filters .accordion-title:hover,
+		.stratum-filters .accordion-title:active { background: rgba(52,153,115,.10); }
+	
+	/* Tab system */
+	.filters #filter-actions .tabs-title>a:hover,
+	.filters #filter-actions .tabs-title>a:active,
+	.filters #filter-actions .tabs-title>a:focus,
+	.filters #filter-actions .tabs-title>a[aria-selected=true] { background: #377d8c; }
+	
+	.filters #filter-tabs .tabs-title>a[aria-selected=true] { background: #349973; }
+		
+		.filters #filter-tabs .tabs-title>a[aria-selected=true]:hover { background: #349973;; }
+		.filters #filter-tabs .tabs-title>a:hover,
+		.filters #filter-tabs .tabs-title>a:active { background: rgba(52,153,115,.10); }
+	
+	/* Filters as Buttons */
+	.stratum-filter-set label:hover { background: rgba(52,153,115,.10); }
+	.stratum-filter-set input[type=checkbox]:checked ~ label { background: rgba(52,153,115,1); }
+	.stratum-filter-set input[type=checkbox]:checked ~ label:after  { content:" \2713"; /* Adds a checkmark */ }
+	
+	/* Filter Tags */
+	.stratum-filter-tag { background: rgba(52,153,115,1); }
+		.stratum-filter-tag:hover { background: rgba(63,178,131,1); }
+	.stratum-filter-tag-clearall { background: #49a7b7; }
+		.stratum-filter-tag-clearall:hover { background: #4fbdc9; }
+
+/* Sorting on Results */
+.stratum-sort select { background-color: rgba(52,153,115,.05); color: #349973; }
+
+/* ----------------------------------------------------------------------------
+	Advertising (Could effect DFP)
+---------------------------------------------------------------------------- */
+/* Featured Ads */
+.featured-ad a .attribution { background: rgba(73,167,183,.75); }
+	.featured-ad a:hover .attribution { background: rgba(73,167,183,1); }
+.featured-ad a .content h1 { color: #349973; }
+	.featured-ad a:hover .content h1 { color: #3fb283; }
+.featured-ad a .url { color: rgba(45,102,112,.75); }
+	.featured-ad a:hover .url { color: color: rgba(73,167,183,1); }
+	
+	
+/* ----------------------------------------------------------------------------
+	Buttons, Hovers & Element States
+---------------------------------------------------------------------------- */
+a { color: #349973; }
+a:hover { color: #3fb283; }
+
+
+/* ----------------------------------------------------------------------------
+	Directed Search
+---------------------------------------------------------------------------- */
+.directed-search-list li:hover a { background: #349973; border-bottom: 1px solid #349973; }
+.directed-search-list li:first-child:hover a { border-top: 1px solid #349973; }
+
+
+/* ----------------------------------------------------------------------------
+	Footer
+---------------------------------------------------------------------------- */
+/* Colophon */
+.colophon { background: #349973; }
+
+	.colophon li:hover a { color: #349973; }
+
+/* Verticals */
+.verticals { background: #2a7557; }
+
+
+/* ----------------------------------------------------------------------------
+	Headers & Headings
+---------------------------------------------------------------------------- */
+.header { 
+	background: #377d8c; 
+	background-size: cover; 
+	/* background-image: url('/wp-content/uploads/2018/04/default-bg.jpg'); */
+	background-position: center center; }
+	
+	/* Directed Search Pages */
+		/* Acreage */
+		.dsp-acreage { background-image: url('/wp-content/uploads/2018/09/homes-for-sale.jpg'); }
+		
+		/* All Jobs */
+		.dsp-all-jobs { background-image: url('/wp-content/uploads/2018/09/all-job-search-cover.jpg'); }
+		
+		/* Apartments & Houses for Rent */
+		.dsp-apartments { background-image: url('/wp-content/uploads/2018/09/apartments-for-rent-cover.jpg'); }
+		
+		/* Garage Sales */
+		.dsp-garage-sales { background-image: url('/wp-content/uploads/2018/09/dsp-garage-sale-cover.jpg'); }
+
+		/* Homes for Sale */
+		.dsp-homes-for-sale { background-image: url('/wp-content/uploads/2018/09/homes-for-sale.jpg'); }
+		
+		/* Public Notices */
+		.dsp-public-notices { background-image: url('/wp-content/uploads/2018/09/public-notices-cover.jpg'); }
+		
+		/* Recreation & Hunting Property */
+		.real-estate-dsp.recreational-property { background-image: url('/wp-content/uploads/2018/08/recreation-hunting-cover.jpg'); }
+		
+		/* Vehicle Sales */
+		.dsp-vehicle-sales { background-image: url('/wp-content/uploads/2018/09/dsp-vehicle-sales.jpg'); }
+	
+	/* Seller Pages */
+		/* Chinook Observer */
+		.sp-chinook-observer { background-image: url('/wp-content/uploads/2018/09/chinook-observer-sp-cover.jpg'); }
+		
+		/* The Daily Astorian */
+		.sp-daily-astorian { background-image: url('/wp-content/uploads/2018/09/daily-astorian-sp-cover.jpg'); }
+		
+		/* American West Properties */
+		.header.american-west-properties { background-image: url('/wp-content/uploads/2018/06/awp-cover-062818.jpg'); }
+		
+		/* Fairway Independent Mortgage */
+			/* Hide the titles */
+			.seller-pages.fairway-independent-mortgage .header-tagline,
+			.header.fairway-independent-mortgage .header-title { visibility: hidden; }
+			/* Add background cover */
+			.header.fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/07/fairway-cover-photo.jpg'); background-position-y: inherit; }
+			/* Nav style switch */
+			.header.fairway-independent-mortgage .primary-navigation a { color: #004F38; }
+			.header.fairway-independent-mortgage .primary-navigation a:hover { color: #004F38; }
+			.header.fairway-independent-mortgage .primary-navigation .logo span { color: #004F38; }
+			.header.fairway-independent-mortgage .primary-navigation .icon { fill: #96CA4E; }
+			.header.fairway-independent-mortgage .primary-navigation .icon.browse-dots { fill: rgba(0,79,56,0.5); }
+			.header.fairway-independent-mortgage .primary-navigation a:hover .icon.browse-dots { fill: rgba(0,79,56,1); }
+			
+		/* Preferred Realty Inc */
+		.header.preferred-realty { background-image: url('/wp-content/uploads/2018/07/preferred-realty-cover-071318.jpg'); }
+	
+	/* Listings */
+	.header.listings { background-image: none; }
+	
+	/* Results */
+	.header.results { background-image: none; }
+	
+	/* Titles */
+	.optimization .header-title { color: #2d6670; }
+
+
+/* ----------------------------------------------------------------------------
+	Listings
+---------------------------------------------------------------------------- */
+/* Galleries */
+.carousel { background: #f2e2e2; }
+
+/* Metadata */
+.listings-content .identifiers { color: rgba(45,102,112,.75); }
+	.listings-content .identifiers li.realtor:after { color: rgba(45,102,112,.50); }
+
+
+/* ----------------------------------------------------------------------------
+	Navigation
+---------------------------------------------------------------------------- */
+.primary-navigation a { color: rgba(255,255,255, 0.90); }
+	.primary-navigation a:hover, 
+	.primary-navigation a:active, 
+	.primary-navigation a:focus { color: #fff; }
+				
+/* Logotype */
+.primary-navigation .logo { width: 175px; }
+	.primary-navigation .logo img { width: 35px; }
+	
+	.primary-navigation .logo a { padding: 0.9375em 1.25em 0.9375em 0 /* 15px 20px 15px 20px */; }
+	.primary-navigation .logo a:hover { background: none; }
+				
+	.primary-navigation .logo span { font-size: .875em /* 14px */; width: 150px; }
+	.primary-navigation .upper-deck { 
+		color: rgba(255,255,255, 0.75); 
+		font-weight: 300;
+		left: 40px;  
+		position: absolute; 
+		top: 10px; }
+	.primary-navigation .lower-deck { 
+		font-weight: 500; 
+		left: 40px; 
+		position: absolute; 
+		top: 25px; }
+
+	/* Logotype - Map View */
+	.mobile-view .primary-navigation .logo img { width: 30px; }
+	.mobile-view .primary-navigation .logo a { padding: 0.5em 1.25em 0.9375em 0 /* 10px 20px 15px 20px */; }
+			
+	.mobile-view .primary-navigation .upper-deck { top: 4px; left: 35px; }
+	.mobile-view .primary-navigation .lower-deck { top: 18px; left: 35px; }
+				
+/* Navigation Links */		
+.primary-navigation .icon { fill: #fff; }
+.primary-navigation .mag-glass { fill: rgba(255,255,255,.15); }
+
+
+/* ----------------------------------------------------------------------------
+	Results
+---------------------------------------------------------------------------- */
+.main-content.results { background: #f9f2f3; }
+
+	/* Content */
+	.stratum-record .title { color: #349973; }
+	.stratum-record a:hover .title { color: #3fb283; }
+	
+	.stratum-record .identifiers { color: rgba(45,102,112,.75); }
+	.stratum-record a:hover .identifiers { color: rgba(45,102,112,1); }
+		.stratum-record .identifiers li.realtor:after { color: rgba(45,102,112,.50); }
+	
+	/* Maps */
+	.map-container .close-button { color: rgba(32,32,32,1); }
+	.map-container .close-button:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
+	
+	.stratum-map-show-all-results button { color: rgba(32,32,32,1); }
+	.stratum-map-show-all-results button:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
+	
+		/* Map Labels */
+		.stratum-map-marker-info h3 { color: #349973; }
+		.stratum-map-marker-info h3:hover { color: #3fb283; }
+		
+	/* Pagination */
+	.stratum-pagination a,
+	.map-pagination .stratum-pagination a { color: rgba(32,32,32,1); }
+	.stratum-pagination a:hover { border: 1px solid rgba(52,153,115,.15); color: rgba(63,178,131,1); }
+	.map-pagination .stratum-pagination a:hover { border: 1px solid rgba(52,153,115,.35); color: rgba(63,178,131,1); }
+	
+		.stratum-pagination a.is-active { border: 1px solid rgba(52,153,115,1); color: rgba(52,153,115,1); }
+		.stratum-pagination a.is-active:hover { border: 1px solid rgba(52,153,115,1); }
+	
+		.stratum-pagination a.stratum-pagination-prev:hover,
+		.stratum-pagination a.stratum-pagination-next:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
+		
+	/* Summary */
+	.stratum-summary-query { color: #377d8c; }
+
+
+/* ----------------------------------------------------------------------------
+	Search
+---------------------------------------------------------------------------- */
+
+/* Autocomplete */
+.stratum-autocomplete .stratum-record a:hover { background: #f9f2f3; }
+.stratum-autocomplete .stratum-record a .stratum-record-details em { background-color: #f9f2f3; }
+.stratum-autocomplete .stratum-record a .stratum-record-title { color: #349973; }
+
+/* Input */
+.search-bar input::-webkit-input-placeholder,
+.search-bar input:-moz-placeholder,  /* Firefox 18- */
+.search-bar input::-moz-placeholder, /* Firefox 19+ */
+.search-bar input:-ms-input-placeholder { color: #377d8c; }
+
+/* Submit */
+.search-bar label { background: #349973; }
+.search-bar label:hover, 
+.search-bar label:active, 
+.search-bar label:focus { background: #3fb283; }
+
+.search-bar .mag-glass { fill: rgba(255,255,255,.15); }
+.search-bar label:hover .mag-glass { fill: rgba(255,255,255,.15); }
+
+
+/* ----------------------------------------------------------------------------
+	Seller Pages
+---------------------------------------------------------------------------- */
+.sellers-page .filters { background: #377d8c; }
+
+	.sellers-page .listings-content .identifiers { color: rgba(45,102,112,.75); }
+		.sellers-page .listings-content .identifiers a { color: rgba(45,102,112,.75); }
+		.sellers-page .listings-content .identifiers a:hover { color: rgba(45,102,112,1); }
+
+		.sellers-page .listings-content .metadata li.phone a { color: #349973; }
+		.sellers-page .listings-content .metadata li.phone a:hover { color: #3fb283; }
+	
+		.sellers-page .connections a:hover,
+		.sellers-page .team a:hover { color: #3fb283; }
+		
+			.sellers-page a:hover svg .facebook,
+			.sellers-page a:hover svg .instagram,
+			.sellers-page a:hover svg .linkedin,
+			.sellers-page a:hover svg .twitter { fill: #3fb283; }
+		
+
+
+
+
+/* ----------------------------------------------------------------------------
+	Medium Device
+---------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {}
+
+
+
+
+
+/* ----------------------------------------------------------------------------
+	Small Device
+---------------------------------------------------------------------------- */
+@media screen and (max-width: 641px) {
+
+	/* Navigation 
+	------------------------------------------------------------------------ */
+	/* Logotype */
+	.primary-navigation .logo { width: 135px; /* Visually set by the size of the logo in use */ }
+	.primary-navigation .logo img { width: 30px; }
+	
+	.primary-navigation .logo a { padding: 0.5em 1.25em 0.9375em 0 /* 10px 20px 15px 20px */; }
+			
+	.primary-navigation .upper-deck { top: 4px; left: 35px; }
+	.primary-navigation .lower-deck { top: 18px; left: 35px; }
+	
+	/* Seller Pages 
+	------------------------------------------------------------------------ */
+	.header.fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/07/fairway-cover-photo-071318.jpg'); background-position-y: inherit; }
+}
