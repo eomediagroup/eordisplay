@@ -1,5 +1,5 @@
-# Eastern Oregon Marketplace
-Eastern Oregon Marketplace is a community focused marketplace Stratum app, powered by Cascade
+# East Oregon Real Estate
+East Oregon Real Estate is a real estate focused marketplace Stratum app, powered by Cascade
 
 ### Structure ###
 The Stratum platform consists of a single [Wordpress](http://www.wordpress.org) install utilizing pages, posts and other standard Wordpress elements, blended with a set of Stratum plugins and applications.. This instance uses the Cascade Core as a Parent Theme and takes advantage of [Child Themes](https://codex.wordpress.org/Child_Themes) for specific site functionality.
