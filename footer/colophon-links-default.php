@@ -8,13 +8,13 @@
 <div class="cell medium-4 small-order-2 medium-order-1">
 	
 	<ul class="vertical menu">
-		<li><a href="https://comdisplay.teamstratum/">Search properties</a></li>
-		<li><a href="https://comdisplay.teamstratum.com/advertise/">Advertise with us</a></li>
+		<li><a href="https://eordisplay.teamstratum/">Search properties</a></li>
+		<li><a href="https://eordisplay.teamstratum.com/advertise/">Advertise with us</a></li>
 		<li><a href="https://support.teamstratum.com/contact/">Contact us</a></li>
 	</ul>
 	
 	<ul class="social menu">
-		<li><a href="https://www.facebook.com/CoastMarketplace/">
+		<li><a href="https://www.facebook.com/easternoregonrealestateguide/">
 			<div class="svg">
 				<?php get_template_part( 'assets/icons/svg/facebook', 'icon' ); ?>
 			</div>

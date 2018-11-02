@@ -9,8 +9,8 @@
 	<div class="grid-x">
 		<div class="cell">
 			
-			<h1 class="header-title">Browse by Topic</h1>
-			<p class="header-tagline">Find links to our most searched for items. Want a new link added to this list? <a href="https://support.teamstratum.com/contact/">Contact our support team</a>.</p>
+			<h1 class="header-title">Browse for Properties</h1>
+			<p class="header-tagline">Find quick links to our most searched properties. Want a new link added to this list? <a href="https://support.teamstratum.com/contact/">Contact our support team</a>.</p>
 		
 		</div>
 	</div>

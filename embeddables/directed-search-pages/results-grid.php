@@ -15,7 +15,7 @@
 
 <?php ob_start(); ?>
 
-[stratum_results account=<?= $dspaccount ?> listing_url_template="https://comdisplay.teamstratum.com/listings/{{slug}}" num=<?= $dspdisplaytotal ?>]
+[stratum_results account=<?= $dspaccount ?> listing_url_template="https://eordisplay.teamstratum.com/listings/{{slug}}" num=<?= $dspdisplaytotal ?>]
 	[stratum_result_template]
 	
 		[stratum_if_value key='featured_image']

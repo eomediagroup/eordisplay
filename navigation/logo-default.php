@@ -8,7 +8,7 @@
 <li><a href="/">
 	<img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/branding/logo.png">
 	<div class="logotype">
-		<span class="upper-deck">Coast</span>
-		<span class="lower-deck">Marketplace</span>
+		<span class="upper-deck">East Oregon</span>
+		<span class="lower-deck">Real Estate</span>
 	</div>
 </a></li>

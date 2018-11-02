@@ -8,6 +8,6 @@
 
 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branding/colophon-logo.png">
 
-	<p><a href="https://comdisplay.teamstratum.com/">Coast Marketplace</a> helps you find the widest selection of items for sale in the Columbia-Pacific region. Our listings are optimized to deliver information the community needs to make buying decisions. By analyzing information on thousands of topics, we make it easy for you to find what you're looking for in Long Beach, Ilwaco, Chinook, Astoria, Warrenton, Gearhart, Seaside and Cannon Beach.</p>
+	<p><a href="https://eordisplay.teamstratum.com/">East Oregon Real Estate</a> helps you find the newest Eastern Oregon real estate listings. By analyzing information on thousands of acreage for sale, single family homes for sale, ranches for sale, and farms for sale Pendleton, Hermiston, Enterprise, John Day, Baker City, Oregon and across Eastern Oregon. We make it easy to find your dream home by filtering home types, price, lot size and much more.</p>
 	
 </div>

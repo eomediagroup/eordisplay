@@ -9,7 +9,7 @@
 	<div class="grid-x">
 		<div class="cell">
 			
-			<h1 class="header-title">Find what you’re looking for in the Columbia-Pacific region</h1>
+			<h1 class="header-title">Find the property you’re looking for in Eastern Oregon</h1>
 		
 		</div>
 	</div>

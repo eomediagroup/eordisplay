@@ -1,6 +1,6 @@
 <?php
 /**
- * The template part for displaying an actionable for Real Estate
+ * The template part for displaying an actionable for search
  * results, focused on calls to action
  */
 ?>

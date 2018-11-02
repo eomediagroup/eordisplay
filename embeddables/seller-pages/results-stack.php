@@ -1,7 +1,7 @@
 <?php
 /**
  * The template part for displaying an embeddable for Search Results
- * within a community based marketplace Stratum app
+ * within a real estate based Stratum app
  */
 ?>
 
@@ -16,7 +16,7 @@
 
 	<?php ob_start(); ?>
 	
-	[stratum_results account=<?= $spaccount ?> listing_url_template="https://comdisplay.teamstratum.com/listings/{{slug}}" num=<?= $spdisplaytotal ?>]
+	[stratum_results account=<?= $spaccount ?> listing_url_template="https://eordisplay.teamstratum.com/listings/{{slug}}" num=<?= $spdisplaytotal ?>]
 		[stratum_result_template]
 	    
 	    	

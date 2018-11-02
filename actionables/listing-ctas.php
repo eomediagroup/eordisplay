@@ -19,14 +19,6 @@
 	
 				<div class="actions">
 					<ul>
-						<!--[stratum_listing_has_value account=65 key='cta-website']
-							<li><a href="<?php echo do_shortcode( '[stratum_listing account=65 key="cta-website"]' );?>"><span>Website</span></li>	
-						[/stratum_listing_has_value]
-						
-						[stratum_listing_has_value account=65 key='cta-display-link']
-							<li><a href="<?php echo do_shortcode( '[stratum_listing account=65 key="cta-display-link"]' );?>"><span>View Ad</span></li>	
-						[/stratum_listing_has_value]-->			
-						
 						<li><a href="#"><span>Website</span>
 							<div class="svg">
 								<?php get_template_part( 'assets/icons/svg/browser', 'icon' ); ?>

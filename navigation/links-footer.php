@@ -7,7 +7,7 @@
 
 
 <!--<li><a href="#" data-toggle="offCanvasVerticals"><span>Search Beyond Real Estate</span>-->
-<li><a href="https://teamstratum.com/"><span>Search Beyond the Coast</span>
+<li><a href="https://teamstratum.com/"><span>Search Beyond Real Estate</span>
 	<div class="svg">
 		<?php get_template_part( 'assets/icons/svg/more', 'icon' ); ?>
 	</div>

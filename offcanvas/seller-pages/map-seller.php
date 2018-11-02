@@ -15,7 +15,7 @@
 		<span aria-hidden="true">&times;</span>
 	</button>
 	
-	[stratum_map account=27 listing_url_template="https://eastoregonrealestate.com/listings/{{slug}}" info_max_width=250 recenter_on_update=1 show_all_results='Center']
+	[stratum_map account=27 listing_url_template="https://eordisplay.teamstratum.com/listings/{{slug}}" info_max_width=250 recenter_on_update=1 show_all_results='Center']
 	
 	<div class="map-pagination">
 		[stratum_pagination account=27]
