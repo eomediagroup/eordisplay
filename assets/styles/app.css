@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------------------
 Name						$Hex		RGB
 -------------------------------------------------------------------------------
-Foam (-)				|	49a7b7	|	73,167,183
+Foam (-)				|	dd393b	|	73,167,183
 Foam (--)				|	4fbdc9	|	
 Title Foam				|	911718	|	45,102,112
 
@@ -63,7 +63,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 	/* Filter Tags */
 	.stratum-filter-tag { background: rgba(15,106,162,1); }
 		.stratum-filter-tag:hover { background: rgba(22,156,239,1); }
-	.stratum-filter-tag-clearall { background: #49a7b7; }
+	.stratum-filter-tag-clearall { background: #dd393b; }
 		.stratum-filter-tag-clearall:hover { background: #4fbdc9; }
 
 /* Sorting on Results */
