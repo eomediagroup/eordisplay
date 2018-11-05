@@ -11,7 +11,7 @@
 		
 			<div class="cell medium-12">
 	
-				<?php echo do_shortcode('[stratum_result_summary account=65]'); ?>
+				<?php echo do_shortcode('[stratum_result_summary account=84]'); ?>
 	
 				<div class="actions">
 					<ul>			
@@ -27,7 +27,7 @@
 					
 					<?php ob_start(); ?>
 					
-						[stratum_sort account=65] 
+						[stratum_sort account=84] 
 							[stratum_sort_item key='published_at' order='descending' title='Most Recent Listing']
 							[stratum_sort_item key='price' order='ascending' title='Lowest Price First'] 
 							[stratum_sort_item key='price' order='descending' title='Highest Price First'] 				 

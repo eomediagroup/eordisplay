@@ -9,7 +9,7 @@
 	
 	<?php ob_start(); ?>
 	
-	<h3 class="title">Message [stratum_listing account=65 key='seller']</h3>
+	<h3 class="title">Message [stratum_listing account=84 key='seller']</h3>
 	
 	<?php echo do_shortcode(ob_get_clean()); ?>
 	

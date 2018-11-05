@@ -10,7 +10,7 @@
 
 	<?php ob_start(); ?>
 	
-	[stratum_results account=65 listing_url_template="https://eordisplay.teamstratum.com/listings/{{slug}}" num=10]
+	[stratum_results account=84 listing_url_template="https://eordisplay.teamstratum.com/listings/{{slug}}" num=10]
 		[stratum_result_template]
 	    
 	    	
@@ -63,6 +63,6 @@
 	
 	<?php echo do_shortcode(ob_get_clean()); ?>
 	
-	<?php echo do_shortcode('[stratum_pagination account=65]'); ?>
+	<?php echo do_shortcode('[stratum_pagination account=84]'); ?>
 	
 </div>

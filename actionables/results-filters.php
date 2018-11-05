@@ -11,11 +11,11 @@
 		
 			<div class="cell small-12">
 				
-				<?php echo do_shortcode('[stratum_filter_tags account=65 title="Selected Filters"]'); ?>
+				<?php echo do_shortcode('[stratum_filter_tags account=84 title="Selected Filters"]'); ?>
 				
 				<?php ob_start(); ?>
 				
-				[stratum_filters account=65 threshold=50]
+				[stratum_filters account=84 threshold=50]
 				
 				<ul class="tabs" data-tabs data-active-collapse="true" id="filter-actions">
 					<li class="tabs-title"><a id="filter-control" href="#filters" aria-selected="true">Filters
@@ -51,7 +51,7 @@
 								<div class="lat-filter-container">[stratum_enumerate key='latitude' title='Filter by Lat']</div>
 								<div class="stratum-filter-set search-radius">
 									<h3>Filter by Distance</h3>
-									[stratum_geo account=65 distances='10, 20, 50, 75, 100, 200, 300, 500, 750']
+									[stratum_geo account=84 distances='10, 20, 50, 75, 100, 200, 300, 500, 750']
 								</div>
 							</div>
 						[/stratum_if_filter]

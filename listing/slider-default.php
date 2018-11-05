@@ -7,13 +7,13 @@
 
 <?php ob_start(); ?>
 
-[stratum_listing_has_value account=65 key='image']
+[stratum_listing_has_value account=84 key='image']
 	
 	<div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
 		
-		[stratum_listing_multi account=65 key='image']
+		[stratum_listing_multi account=84 key='image']
 		
-			<img src="{{image}}" alt="[stratum_listing account=5 key='title']">
+			<img src="{{image}}" alt="[stratum_listing account=84 key='title']">
   
 		[/stratum_listing_multi]
 	
