@@ -1,13 +1,12 @@
 /* ----------------------------------------------------------------------------
 Name						$Hex		RGB
 -------------------------------------------------------------------------------
-Foam					|	377d8c	|	55,125,140
 Foam (-)				|	49a7b7	|	73,167,183
 Foam (--)				|	4fbdc9	|	
 Title Foam				|	2d6670	|	45,102,112
 
 Green (+)				|	2a7557	|	42,117,87
-Green					|	349973	|	52,153,115
+Green					|	0f6aa2	|	15,106,162
 Green (-)				|	3fb283	|	63,178,131
 
 Text					|	4d4d4d	|	109,110,112
@@ -32,45 +31,45 @@ Base (+)				|	e2e2e2	|	226,226,226
 	Actionables
 ---------------------------------------------------------------------------- */
 /* Calls to Action */
-.ctas li a { background: rgba(52,153,115,.05); }
+.ctas li a { background: rgba(15,106,162,.05); }
 
-	.ctas .svg .icon { fill: #349973; }
+	.ctas .svg .icon { fill: #0f6aa2; }
 	.ctas a:hover .icon { fill: #3fb283; }
 	
 /* Filters on Results */
 .filters .tabs,
-.filters .tabs-content { background: #377d8c; }
+.filters .tabs-content { background: #891b1b; }
 	
 	/* Accordion system */
-	.stratum-filters .accordion-title[aria-selected=true]:hover { background: #349973;; }
+	.stratum-filters .accordion-title[aria-selected=true]:hover { background: #0f6aa2;; }
 		.stratum-filters .accordion-title:hover,
-		.stratum-filters .accordion-title:active { background: rgba(52,153,115,.10); }
+		.stratum-filters .accordion-title:active { background: rgba(15,106,162,.10); }
 	
 	/* Tab system */
 	.filters #filter-actions .tabs-title>a:hover,
 	.filters #filter-actions .tabs-title>a:active,
 	.filters #filter-actions .tabs-title>a:focus,
-	.filters #filter-actions .tabs-title>a[aria-selected=true] { background: #377d8c; }
+	.filters #filter-actions .tabs-title>a[aria-selected=true] { background: #891b1b; }
 	
-	.filters #filter-tabs .tabs-title>a[aria-selected=true] { background: #349973; }
+	.filters #filter-tabs .tabs-title>a[aria-selected=true] { background: #0f6aa2; }
 		
-		.filters #filter-tabs .tabs-title>a[aria-selected=true]:hover { background: #349973;; }
+		.filters #filter-tabs .tabs-title>a[aria-selected=true]:hover { background: #0f6aa2;; }
 		.filters #filter-tabs .tabs-title>a:hover,
-		.filters #filter-tabs .tabs-title>a:active { background: rgba(52,153,115,.10); }
+		.filters #filter-tabs .tabs-title>a:active { background: rgba(15,106,162,.10); }
 	
 	/* Filters as Buttons */
-	.stratum-filter-set label:hover { background: rgba(52,153,115,.10); }
-	.stratum-filter-set input[type=checkbox]:checked ~ label { background: rgba(52,153,115,1); }
+	.stratum-filter-set label:hover { background: rgba(15,106,162,.10); }
+	.stratum-filter-set input[type=checkbox]:checked ~ label { background: rgba(15,106,162,1); }
 	.stratum-filter-set input[type=checkbox]:checked ~ label:after  { content:" \2713"; /* Adds a checkmark */ }
 	
 	/* Filter Tags */
-	.stratum-filter-tag { background: rgba(52,153,115,1); }
+	.stratum-filter-tag { background: rgba(15,106,162,1); }
 		.stratum-filter-tag:hover { background: rgba(63,178,131,1); }
 	.stratum-filter-tag-clearall { background: #49a7b7; }
 		.stratum-filter-tag-clearall:hover { background: #4fbdc9; }
 
 /* Sorting on Results */
-.stratum-sort select { background-color: rgba(52,153,115,.05); color: #349973; }
+.stratum-sort select { background-color: rgba(15,106,162,.05); color: #0f6aa2; }
 
 /* ----------------------------------------------------------------------------
 	Advertising (Could effect DFP)
@@ -78,7 +77,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 /* Featured Ads */
 .featured-ad a .attribution { background: rgba(73,167,183,.75); }
 	.featured-ad a:hover .attribution { background: rgba(73,167,183,1); }
-.featured-ad a .content h1 { color: #349973; }
+.featured-ad a .content h1 { color: #0f6aa2; }
 	.featured-ad a:hover .content h1 { color: #3fb283; }
 .featured-ad a .url { color: rgba(45,102,112,.75); }
 	.featured-ad a:hover .url { color: color: rgba(73,167,183,1); }
@@ -87,24 +86,24 @@ Base (+)				|	e2e2e2	|	226,226,226
 /* ----------------------------------------------------------------------------
 	Buttons, Hovers & Element States
 ---------------------------------------------------------------------------- */
-a { color: #349973; }
+a { color: #0f6aa2; }
 a:hover { color: #3fb283; }
 
 
 /* ----------------------------------------------------------------------------
 	Directed Search
 ---------------------------------------------------------------------------- */
-.directed-search-list li:hover a { background: #349973; border-bottom: 1px solid #349973; }
-.directed-search-list li:first-child:hover a { border-top: 1px solid #349973; }
+.directed-search-list li:hover a { background: #0f6aa2; border-bottom: 1px solid #0f6aa2; }
+.directed-search-list li:first-child:hover a { border-top: 1px solid #0f6aa2; }
 
 
 /* ----------------------------------------------------------------------------
 	Footer
 ---------------------------------------------------------------------------- */
 /* Colophon */
-.colophon { background: #349973; }
+.colophon { background: #0f6aa2; }
 
-	.colophon li:hover a { color: #349973; }
+	.colophon li:hover a { color: #0f6aa2; }
 
 /* Verticals */
 .verticals { background: #2a7557; }
@@ -114,7 +113,7 @@ a:hover { color: #3fb283; }
 	Headers & Headings
 ---------------------------------------------------------------------------- */
 .header { 
-	background: #377d8c; 
+	background: #891b1b; 
 	background-size: cover; 
 	/* background-image: url('/wp-content/uploads/2018/04/default-bg.jpg'); */
 	background-position: center center; }
@@ -238,7 +237,7 @@ a:hover { color: #3fb283; }
 .main-content.results { background: #f9f2f3; }
 
 	/* Content */
-	.stratum-record .title { color: #349973; }
+	.stratum-record .title { color: #0f6aa2; }
 	.stratum-record a:hover .title { color: #3fb283; }
 	
 	.stratum-record .identifiers { color: rgba(45,102,112,.75); }
@@ -253,23 +252,23 @@ a:hover { color: #3fb283; }
 	.stratum-map-show-all-results button:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
 	
 		/* Map Labels */
-		.stratum-map-marker-info h3 { color: #349973; }
+		.stratum-map-marker-info h3 { color: #0f6aa2; }
 		.stratum-map-marker-info h3:hover { color: #3fb283; }
 		
 	/* Pagination */
 	.stratum-pagination a,
 	.map-pagination .stratum-pagination a { color: rgba(32,32,32,1); }
-	.stratum-pagination a:hover { border: 1px solid rgba(52,153,115,.15); color: rgba(63,178,131,1); }
-	.map-pagination .stratum-pagination a:hover { border: 1px solid rgba(52,153,115,.35); color: rgba(63,178,131,1); }
+	.stratum-pagination a:hover { border: 1px solid rgba(15,106,162,.15); color: rgba(63,178,131,1); }
+	.map-pagination .stratum-pagination a:hover { border: 1px solid rgba(15,106,162,.35); color: rgba(63,178,131,1); }
 	
-		.stratum-pagination a.is-active { border: 1px solid rgba(52,153,115,1); color: rgba(52,153,115,1); }
-		.stratum-pagination a.is-active:hover { border: 1px solid rgba(52,153,115,1); }
+		.stratum-pagination a.is-active { border: 1px solid rgba(15,106,162,1); color: rgba(15,106,162,1); }
+		.stratum-pagination a.is-active:hover { border: 1px solid rgba(15,106,162,1); }
 	
 		.stratum-pagination a.stratum-pagination-prev:hover,
 		.stratum-pagination a.stratum-pagination-next:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
 		
 	/* Summary */
-	.stratum-summary-query { color: #377d8c; }
+	.stratum-summary-query { color: #891b1b; }
 
 
 /* ----------------------------------------------------------------------------
@@ -279,16 +278,16 @@ a:hover { color: #3fb283; }
 /* Autocomplete */
 .stratum-autocomplete .stratum-record a:hover { background: #f9f2f3; }
 .stratum-autocomplete .stratum-record a .stratum-record-details em { background-color: #f9f2f3; }
-.stratum-autocomplete .stratum-record a .stratum-record-title { color: #349973; }
+.stratum-autocomplete .stratum-record a .stratum-record-title { color: #0f6aa2; }
 
 /* Input */
 .search-bar input::-webkit-input-placeholder,
 .search-bar input:-moz-placeholder,  /* Firefox 18- */
 .search-bar input::-moz-placeholder, /* Firefox 19+ */
-.search-bar input:-ms-input-placeholder { color: #377d8c; }
+.search-bar input:-ms-input-placeholder { color: #891b1b; }
 
 /* Submit */
-.search-bar label { background: #349973; }
+.search-bar label { background: #0f6aa2; }
 .search-bar label:hover, 
 .search-bar label:active, 
 .search-bar label:focus { background: #3fb283; }
@@ -300,13 +299,13 @@ a:hover { color: #3fb283; }
 /* ----------------------------------------------------------------------------
 	Seller Pages
 ---------------------------------------------------------------------------- */
-.sellers-page .filters { background: #377d8c; }
+.sellers-page .filters { background: #891b1b; }
 
 	.sellers-page .listings-content .identifiers { color: rgba(45,102,112,.75); }
 		.sellers-page .listings-content .identifiers a { color: rgba(45,102,112,.75); }
 		.sellers-page .listings-content .identifiers a:hover { color: rgba(45,102,112,1); }
 
-		.sellers-page .listings-content .metadata li.phone a { color: #349973; }
+		.sellers-page .listings-content .metadata li.phone a { color: #0f6aa2; }
 		.sellers-page .listings-content .metadata li.phone a:hover { color: #3fb283; }
 	
 		.sellers-page .connections a:hover,
