@@ -6,8 +6,6 @@ Foam (--)				|	4fbdc9	|
 Title Foam				|	2d6670	|	45,102,112
 
 Green (+)				|	2a7557	|	42,117,87
-Green					|	0f6aa2	|	15,106,162
-Green (-)				|	3fb283	|	63,178,131
 
 Text					|	4d4d4d	|	109,110,112
 Base					|	eeeeee	|	238,238,238
@@ -34,7 +32,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 .ctas li a { background: rgba(15,106,162,.05); }
 
 	.ctas .svg .icon { fill: #0f6aa2; }
-	.ctas a:hover .icon { fill: #3fb283; }
+	.ctas a:hover .icon { fill: #169cef; }
 	
 /* Filters on Results */
 .filters .tabs,
@@ -64,7 +62,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 	
 	/* Filter Tags */
 	.stratum-filter-tag { background: rgba(15,106,162,1); }
-		.stratum-filter-tag:hover { background: rgba(63,178,131,1); }
+		.stratum-filter-tag:hover { background: rgba(22,156,239,1); }
 	.stratum-filter-tag-clearall { background: #49a7b7; }
 		.stratum-filter-tag-clearall:hover { background: #4fbdc9; }
 
@@ -78,7 +76,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 .featured-ad a .attribution { background: rgba(73,167,183,.75); }
 	.featured-ad a:hover .attribution { background: rgba(73,167,183,1); }
 .featured-ad a .content h1 { color: #0f6aa2; }
-	.featured-ad a:hover .content h1 { color: #3fb283; }
+	.featured-ad a:hover .content h1 { color: #169cef; }
 .featured-ad a .url { color: rgba(45,102,112,.75); }
 	.featured-ad a:hover .url { color: color: rgba(73,167,183,1); }
 	
@@ -87,7 +85,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 	Buttons, Hovers & Element States
 ---------------------------------------------------------------------------- */
 a { color: #0f6aa2; }
-a:hover { color: #3fb283; }
+a:hover { color: #169cef; }
 
 
 /* ----------------------------------------------------------------------------
@@ -238,7 +236,7 @@ a:hover { color: #3fb283; }
 
 	/* Content */
 	.stratum-record .title { color: #0f6aa2; }
-	.stratum-record a:hover .title { color: #3fb283; }
+	.stratum-record a:hover .title { color: #169cef; }
 	
 	.stratum-record .identifiers { color: rgba(45,102,112,.75); }
 	.stratum-record a:hover .identifiers { color: rgba(45,102,112,1); }
@@ -246,26 +244,26 @@ a:hover { color: #3fb283; }
 	
 	/* Maps */
 	.map-container .close-button { color: rgba(32,32,32,1); }
-	.map-container .close-button:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
+	.map-container .close-button:hover { background: #169cef; border: 1px solid rgba(22,156,239,1); color: #fff; }
 	
 	.stratum-map-show-all-results button { color: rgba(32,32,32,1); }
-	.stratum-map-show-all-results button:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
+	.stratum-map-show-all-results button:hover { background: #169cef; border: 1px solid rgba(22,156,239,1); color: #fff; }
 	
 		/* Map Labels */
 		.stratum-map-marker-info h3 { color: #0f6aa2; }
-		.stratum-map-marker-info h3:hover { color: #3fb283; }
+		.stratum-map-marker-info h3:hover { color: #169cef; }
 		
 	/* Pagination */
 	.stratum-pagination a,
 	.map-pagination .stratum-pagination a { color: rgba(32,32,32,1); }
-	.stratum-pagination a:hover { border: 1px solid rgba(15,106,162,.15); color: rgba(63,178,131,1); }
-	.map-pagination .stratum-pagination a:hover { border: 1px solid rgba(15,106,162,.35); color: rgba(63,178,131,1); }
+	.stratum-pagination a:hover { border: 1px solid rgba(15,106,162,.15); color: rgba(22,156,239,1); }
+	.map-pagination .stratum-pagination a:hover { border: 1px solid rgba(15,106,162,.35); color: rgba(22,156,239,1); }
 	
 		.stratum-pagination a.is-active { border: 1px solid rgba(15,106,162,1); color: rgba(15,106,162,1); }
 		.stratum-pagination a.is-active:hover { border: 1px solid rgba(15,106,162,1); }
 	
 		.stratum-pagination a.stratum-pagination-prev:hover,
-		.stratum-pagination a.stratum-pagination-next:hover { background: #3fb283; border: 1px solid rgba(63,178,131,1); color: #fff; }
+		.stratum-pagination a.stratum-pagination-next:hover { background: #169cef; border: 1px solid rgba(22,156,239,1); color: #fff; }
 		
 	/* Summary */
 	.stratum-summary-query { color: #891b1b; }
@@ -290,7 +288,7 @@ a:hover { color: #3fb283; }
 .search-bar label { background: #0f6aa2; }
 .search-bar label:hover, 
 .search-bar label:active, 
-.search-bar label:focus { background: #3fb283; }
+.search-bar label:focus { background: #169cef; }
 
 .search-bar .mag-glass { fill: rgba(255,255,255,.15); }
 .search-bar label:hover .mag-glass { fill: rgba(255,255,255,.15); }
@@ -306,15 +304,15 @@ a:hover { color: #3fb283; }
 		.sellers-page .listings-content .identifiers a:hover { color: rgba(45,102,112,1); }
 
 		.sellers-page .listings-content .metadata li.phone a { color: #0f6aa2; }
-		.sellers-page .listings-content .metadata li.phone a:hover { color: #3fb283; }
+		.sellers-page .listings-content .metadata li.phone a:hover { color: #169cef; }
 	
 		.sellers-page .connections a:hover,
-		.sellers-page .team a:hover { color: #3fb283; }
+		.sellers-page .team a:hover { color: #169cef; }
 		
 			.sellers-page a:hover svg .facebook,
 			.sellers-page a:hover svg .instagram,
 			.sellers-page a:hover svg .linkedin,
-			.sellers-page a:hover svg .twitter { fill: #3fb283; }
+			.sellers-page a:hover svg .twitter { fill: #169cef; }
 		
 
 
