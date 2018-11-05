@@ -3,9 +3,9 @@ Name						$Hex		RGB
 -------------------------------------------------------------------------------
 Foam (-)				|	49a7b7	|	73,167,183
 Foam (--)				|	4fbdc9	|	
-Title Foam				|	2d6670	|	45,102,112
+Title Foam				|	911718	|	45,102,112
 
-Green (+)				|	2a7557	|	42,117,87
+Green (+)				|	015791	|	42,117,87
 
 Text					|	4d4d4d	|	109,110,112
 Base					|	eeeeee	|	238,238,238
@@ -104,7 +104,7 @@ a:hover { color: #169cef; }
 	.colophon li:hover a { color: #0f6aa2; }
 
 /* Verticals */
-.verticals { background: #2a7557; }
+.verticals { background: #015791; }
 
 
 /* ----------------------------------------------------------------------------
@@ -175,7 +175,7 @@ a:hover { color: #169cef; }
 	.header.results { background-image: none; }
 	
 	/* Titles */
-	.optimization .header-title { color: #2d6670; }
+	.optimization .header-title { color: #911718; }
 
 
 /* ----------------------------------------------------------------------------
