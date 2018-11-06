@@ -28,6 +28,7 @@ add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
 add_action('init', function() {
 	
   add_rewrite_rule('^listings/([a-zA-Z0-9-_]+)$', 'index.php?pagename=listing&sl=$matches[1]', 'top');
+  add_rewrite_rule('^listings/[a-zA-Z0-9-_]+/([a-zA-Z0-9-_]+)$', 'index.php?pagename=listing&sl=$matches[1]', 'top');
 
 });
 
