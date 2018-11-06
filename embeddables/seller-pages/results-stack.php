@@ -16,7 +16,7 @@
 
 	<?php ob_start(); ?>
 	
-	[stratum_results account=<?= $spaccount ?> listing_url_template="https://eordisplay.teamstratum.com/listings/{{slug}}" num=<?= $spdisplaytotal ?>]
+	[stratum_results account=<?= $spaccount ?> listing_url_template="https://eordisplay.teamstratum.com/listing/{{slug}}" num=<?= $spdisplaytotal ?>]
 		[stratum_result_template]
 	    
 	    	

@@ -1,6 +1,6 @@
 <?php 
 /**
- * Template Name: Listings
+ * Template Name: Listing
  * The template for displaying Stratum's Swiftype content as a listing
  *
  */
