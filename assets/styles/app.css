@@ -67,7 +67,7 @@ Base (+)				|	e2e2e2	|	226,226,226
 	.featured-ad a:hover .attribution { background: rgba(73,167,183,1); }
 .featured-ad a .content h1 { color: #0f6aa2; }
 	.featured-ad a:hover .content h1 { color: #169cef; }
-.featured-ad a .url { color: rgba(45,102,112,.75); }
+.featured-ad a .url { color: rgba(145,23,24,.75); }
 	.featured-ad a:hover .url { color: color: rgba(73,167,183,1); }
 	
 	
@@ -170,8 +170,8 @@ a:hover { color: #169cef; }
 .carousel { background: #f2e2e2; }
 
 /* Metadata */
-.listings-content .identifiers { color: rgba(45,102,112,.75); }
-	.listings-content .identifiers li.realtor:after { color: rgba(45,102,112,.50); }
+.listings-content .identifiers { color: rgba(145,23,24,.75); }
+	.listings-content .identifiers li.realtor:after { color: rgba(145,23,24,.50); }
 
 
 /* ----------------------------------------------------------------------------
@@ -223,9 +223,9 @@ a:hover { color: #169cef; }
 	.stratum-record .title { color: #0f6aa2; }
 	.stratum-record a:hover .title { color: #169cef; }
 	
-	.stratum-record .identifiers { color: rgba(45,102,112,.75); }
-	.stratum-record a:hover .identifiers { color: rgba(45,102,112,1); }
-		.stratum-record .identifiers li.realtor:after { color: rgba(45,102,112,.50); }
+	.stratum-record .identifiers { color: rgba(145,23,24,.75); }
+	.stratum-record a:hover .identifiers { color: rgba(145,23,24,1); }
+		.stratum-record .identifiers li.realtor:after { color: rgba(145,23,24,.50); }
 	
 	/* Maps */
 	.map-container .close-button { color: rgba(32,32,32,1); }
@@ -284,9 +284,9 @@ a:hover { color: #169cef; }
 ---------------------------------------------------------------------------- */
 .sellers-page .filters { background: #891b1b; }
 
-	.sellers-page .listings-content .identifiers { color: rgba(45,102,112,.75); }
-		.sellers-page .listings-content .identifiers a { color: rgba(45,102,112,.75); }
-		.sellers-page .listings-content .identifiers a:hover { color: rgba(45,102,112,1); }
+	.sellers-page .listings-content .identifiers { color: rgba(145,23,24,.75); }
+		.sellers-page .listings-content .identifiers a { color: rgba(145,23,24,.75); }
+		.sellers-page .listings-content .identifiers a:hover { color: rgba(145,23,24,1); }
 
 		.sellers-page .listings-content .metadata li.phone a { color: #0f6aa2; }
 		.sellers-page .listings-content .metadata li.phone a:hover { color: #169cef; }
