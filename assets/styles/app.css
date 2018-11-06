@@ -136,6 +136,9 @@ a:hover { color: #169cef; }
 		/* American West Properties */
 		.sp-american-west-properties { background-image: url('/wp-content/uploads/2018/11/american-west-properties-hermiston-oregon.jpg'); }
 		
+		/* Preferred Realty Inc */
+		.sp-preferred-realty { background-image: url('/wp-content/uploads/2018/11/preferred-realty-inc-hermiston.jpg'); }
+		
 		/* Fairway Independent Mortgage */
 			/* Hide the titles */
 			.seller-pages.fairway-independent-mortgage .header-tagline,
@@ -149,9 +152,7 @@ a:hover { color: #169cef; }
 			.header.fairway-independent-mortgage .primary-navigation .icon { fill: #96CA4E; }
 			.header.fairway-independent-mortgage .primary-navigation .icon.browse-dots { fill: rgba(0,79,56,0.5); }
 			.header.fairway-independent-mortgage .primary-navigation a:hover .icon.browse-dots { fill: rgba(0,79,56,1); }
-			
-		/* Preferred Realty Inc */
-		.header.preferred-realty { background-image: url('/wp-content/uploads/2018/07/preferred-realty-cover-071318.jpg'); }
+		
 	
 	/* Listings */
 	.header.listings { background-image: none; }
