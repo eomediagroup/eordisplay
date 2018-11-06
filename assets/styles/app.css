@@ -1,16 +1,6 @@
 /* ----------------------------------------------------------------------------
 Name						$Hex		RGB
 -------------------------------------------------------------------------------
-Foam (-)				|	dd393b	|	73,167,183
-Foam (--)				|	e8434c	|	
-Title Foam				|	911718	|	45,102,112
-
-Green (+)				|	015791	|	42,117,87
-
-Text					|	4d4d4d	|	109,110,112
-Base					|	eeeeee	|	238,238,238
-Base (+)				|	e2e2e2	|	226,226,226
-
 Red (++)				|	492525	|	73,37,37
 Red (+)					|	4f1111	|	79,17,17
 Red						|	891b1b	|	137,27,27
@@ -113,7 +103,7 @@ a:hover { color: #169cef; }
 .header { 
 	background: #891b1b; 
 	background-size: cover; 
-	/* background-image: url('/wp-content/uploads/2018/04/default-bg.jpg'); */
+	background-image: url('/wp-content/uploads/2018/11/default-bg.jpg');
 	background-position: center center; }
 	
 	/* Directed Search Pages */
