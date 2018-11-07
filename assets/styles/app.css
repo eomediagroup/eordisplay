@@ -141,17 +141,17 @@ a:hover { color: #169cef; }
 		
 		/* Fairway Independent Mortgage */
 			/* Hide the titles */
-			.seller-pages.fairway-independent-mortgage .header-tagline,
-			.header.fairway-independent-mortgage .header-title { visibility: hidden; }
+			.seller-pages.sp-fairway-independent-mortgage .header-tagline,
+			.header.sp-fairway-independent-mortgage .header-title { visibility: hidden; }
 			/* Add background cover */
-			.header.fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/07/fairway-cover-photo.jpg'); background-position-y: inherit; }
+			.sp-fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/07/fairway-cover-photo.jpg'); background-position-y: inherit; }
 			/* Nav style switch */
-			.header.fairway-independent-mortgage .primary-navigation a { color: #004F38; }
-			.header.fairway-independent-mortgage .primary-navigation a:hover { color: #004F38; }
-			.header.fairway-independent-mortgage .primary-navigation .logo span { color: #004F38; }
-			.header.fairway-independent-mortgage .primary-navigation .icon { fill: #96CA4E; }
-			.header.fairway-independent-mortgage .primary-navigation .icon.browse-dots { fill: rgba(0,79,56,0.5); }
-			.header.fairway-independent-mortgage .primary-navigation a:hover .icon.browse-dots { fill: rgba(0,79,56,1); }
+			.sp-fairway-independent-mortgage .primary-navigation a { color: #004F38; }
+			.sp-fairway-independent-mortgage .primary-navigation a:hover { color: #004F38; }
+			.sp-fairway-independent-mortgage .primary-navigation .logo span { color: #004F38; }
+			.sp-fairway-independent-mortgage .primary-navigation .icon { fill: #96CA4E; }
+			.sp-fairway-independent-mortgage .primary-navigation .icon.browse-dots { fill: rgba(0,79,56,0.5); }
+			.sp-fairway-independent-mortgage .primary-navigation a:hover .icon.browse-dots { fill: rgba(0,79,56,1); }
 		
 	
 	/* Listings */
