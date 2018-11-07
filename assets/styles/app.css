@@ -145,6 +145,7 @@ a:hover { color: #169cef; }
 			.seller-pages.sp-fairway-independent-mortgage .header-title { visibility: hidden; }
 			/* Add background cover */
 			.sp-fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/11/fairway-cover-photo.jpg'); background-position-y: inherit; }
+			.seller-pages.sp-fairway-independent-mortgage .heading { padding-top: 5.5em; /* Visually aligned */ } 
 			/* Nav style switch */
 			.sp-fairway-independent-mortgage .primary-navigation a { color: #004F38; }
 			.sp-fairway-independent-mortgage .primary-navigation a:hover { color: #004F38; }
