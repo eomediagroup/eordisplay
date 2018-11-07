@@ -107,26 +107,8 @@ a:hover { color: #169cef; }
 	background-position: center center; }
 	
 	/* Directed Search Pages */
-		/* Acreage */
-		.dsp-acreage { background-image: url('/wp-content/uploads/2018/09/homes-for-sale.jpg'); }
-		
-		/* All Jobs */
-		.dsp-all-jobs { background-image: url('/wp-content/uploads/2018/09/all-job-search-cover.jpg'); }
-		
-		/* Apartments & Houses for Rent */
-		.dsp-apartments { background-image: url('/wp-content/uploads/2018/09/apartments-for-rent-cover.jpg'); }
-		
-		/* Garage Sales */
-		.dsp-garage-sales { background-image: url('/wp-content/uploads/2018/09/dsp-garage-sale-cover.jpg'); }
-
-		/* Homes for Sale */
-		.dsp-homes-for-sale { background-image: url('/wp-content/uploads/2018/09/homes-for-sale.jpg'); }
-		
-		/* Public Notices */
-		.dsp-public-notices { background-image: url('/wp-content/uploads/2018/09/public-notices-cover.jpg'); }
-		
 		/* Recreation & Hunting Property */
-		.real-estate-dsp.recreational-property { background-image: url('/wp-content/uploads/2018/08/recreation-hunting-cover.jpg'); }
+		.dsp-hunting-recreational-property { background-image: url('/wp-content/uploads/2018/11/recreation-and-hunting-property-in-eastern-oregon.jpg'); }
 		
 		/* Vehicle Sales */
 		.dsp-vehicle-sales { background-image: url('/wp-content/uploads/2018/09/dsp-vehicle-sales.jpg'); }
