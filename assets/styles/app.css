@@ -332,5 +332,7 @@ a:hover { color: #169cef; }
 	
 	/* Seller Pages 
 	------------------------------------------------------------------------ */
-	.header.fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/07/fairway-cover-photo-071318.jpg'); background-position-y: inherit; }
+	/* Fairway Independent Mortgage */
+	.sp-fairway-independent-mortgage { background-image: url('/wp-content/uploads/2018/11/fairway-cover-photo-mobile.jpg'); background-position-y: inherit; }
+	.seller-pages.sp-fairway-independent-mortgage .heading { padding-top: 2.5em; /* Visually aligned back */ } 
 }
