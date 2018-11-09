@@ -16,7 +16,7 @@
 
 	<?php ob_start(); ?>
 	
-	[stratum_results account=<?= $dspaccount ?> listing_url_template="https://eordisplay.teamstratum.com/listing/{{slug}}" num=<?= $dspdisplaytotal ?>]
+	[stratum_results account=<?= $dspaccount ?> listing_url_template="https://eastoregonrealestate.com/listing/{{field:author}}/{{slug}}" num=<?= $dspdisplaytotal ?>]
 		[stratum_result_template]
 	    
 	    	

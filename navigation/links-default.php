@@ -19,14 +19,14 @@
 
 <?php } ?>
 
-<li><a href="https://eordisplay.teamstratum.com/#directed"><span>Browse</span>
+<li><a href="https://eastoregonrealestate.com/#directed"><span>Browse</span>
 	<div class="svg">
 		<?php get_template_part( 'assets/icons/svg/browse', 'icon' ); ?>
 	</div>
 </a></li>
 
 <!--<li><a href="#" data-toggle="offCanvasOrdering"><span>Advertise</span>-->
-<li><a href="https://eordisplay.teamstratum.com/advertise/"><span>Advertise</span>
+<li><a href="https://eastoregonrealestate.com/advertise/"><span>Advertise</span>
 	<div class="svg">
 		<?php get_template_part( 'assets/icons/svg/promote', 'icon' ); ?>
 	</div>

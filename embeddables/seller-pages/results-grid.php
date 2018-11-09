@@ -17,7 +17,7 @@
 
 	<?php ob_start(); ?>
 	
-	[stratum_results account=<?= $spaccount ?> listing_url_template="https://eordisplay.teamstratum.com/listing/{{slug}}" num=<?= $spdisplaytotal ?>]
+	[stratum_results account=<?= $spaccount ?> listing_url_template="https://eastoregonrealestate.com/listing/{{field:author}}/{{slug}}" num=<?= $spdisplaytotal ?>]
 		[stratum_result_template]
 		
 			[stratum_if_value key='featured_image']

@@ -7,7 +7,7 @@
 
 get_header(); ?>
 	
-	<?php echo do_shortcode('[stratum_listing_check account=84 404_url="https://eordisplay.teamstratum.com/404-error/"]'); ?>
+	<?php echo do_shortcode('[stratum_listing_check account=84 404_url="https://eastoregonrealestate.com/404-error/"]'); ?>
 	
 	<header class="header listings" role="banner">
 		

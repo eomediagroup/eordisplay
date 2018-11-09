@@ -28,7 +28,7 @@
 			
 			<?php ob_start(); ?>
 			
-				[stratum_search account=<?= $dspaccount ?> placeholder='<?= $dspboxplaceholder ?>' listing_url_template='https://eordisplay.teamstratum.com/listings/{{slug}}']
+				[stratum_search account=<?= $dspaccount ?> placeholder='<?= $dspboxplaceholder ?>' listing_url_template='https://eastoregonrealestate.com/listings/{{field:author}}/{{slug}}']
 			
 				<?php if( have_rows('directed-search-parameters') ): // First load the repeater for search parameters ?>
 					

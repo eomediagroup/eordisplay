@@ -10,7 +10,7 @@
 
 	<?php ob_start(); ?>
 	
-	[stratum_results account=84 listing_url_template="https://eordisplay.teamstratum.com/listing/{{slug}}" num=10]
+	[stratum_results account=84 listing_url_template="https://eastoregonrealestate.com/listing/{{field:author}}/{{slug}}" num=10]
 		[stratum_result_template]
 	    
 	    	
