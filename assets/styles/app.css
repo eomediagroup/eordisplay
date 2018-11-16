@@ -153,6 +153,16 @@ a:hover { color: #169cef; }
 /* Galleries */
 .carousel { background: #f2e2e2; }
 
+/* Lead Generation */
+.lead-generation .gform_wrapper .gform_footer input.button, 
+.lead-generation .gform_wrapper .gform_footer input[type=submit], 
+.lead-generation .gform_wrapper .gform_page_footer input.button, 
+.lead-generation .gform_wrapper .gform_page_footer input[type=submit] { background: #0f6aa2; }
+.lead-generation .gform_wrapper .gform_footer input.button:hover, 
+.lead-generation .gform_wrapper .gform_footer input[type=submit]:hover, 
+.lead-generation .gform_wrapper .gform_page_footer input.button:hover, 
+.lead-generation .gform_wrapper .gform_page_footer input[type=submit]:hover { background: #0f6aa2; }
+
 /* Metadata */
 .listings-content .identifiers { color: rgba(145,23,24,.75); }
 	.listings-content .identifiers li.realtor:after { color: rgba(145,23,24,.50); }
