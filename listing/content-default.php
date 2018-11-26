@@ -25,7 +25,7 @@
 			
 			[stratum_listing_has_value account=84 key='seller']
 				[stratum_listing_multi account=84 key='seller']
-					<li class="seller">{{seller}}</li>
+					<li class="seller"><a href="<?php echo do_shortcode( '[stratum_listing account=84 key="seller-page-slug"]' );?>">{{seller}}</a></li>
 				[/stratum_listing_multi]
 			[/stratum_listing_has_value]
 		</ul>
