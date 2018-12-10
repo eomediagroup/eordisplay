@@ -43,7 +43,7 @@
 						[/stratum_if_value]
 						
 						[stratum_if_value key='preview-type' value='Seller Page Preview']
-							<!--<li class="seller">[stratum_data key="seller"]</li>-->
+							<!-- No author/seller information -->
 						[/stratum_if_value]
 					</ul>
 				</div>
@@ -64,6 +64,10 @@
 					</ul>
 					
 					[stratum_if_value key='preview-type' value='Default Preview']
+						<p class="results-preview">[stratum_data key="body_excerpt"]</p>
+					[/stratum_if_value]
+					
+					[stratum_if_value key='preview-type' value='Seller Page Preview']
 						<p class="results-preview">[stratum_data key="body_excerpt"]</p>
 					[/stratum_if_value]
 				</div>
