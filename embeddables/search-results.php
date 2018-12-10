@@ -23,16 +23,28 @@
 				
 				<div class="identifiers">
 					<ul>
-						[stratum_if_value key='preview-type' value='Property Preview']
-							<li class="realtor">[stratum_data key="realtors"]</li>
+						[stratum_if_value key='preview-type' value='Default Preview']
+							<li class="seller">[stratum_data key="seller"]</li>
 						[/stratum_if_value]
+						
 						[stratum_if_value key='preview-type' value='Lender Preview']
 							<li class="realtor">[stratum_data key="lender-rate-type"] Loans</li>
+							<li class="seller">[stratum_data key="seller"]</li>
 						[/stratum_if_value]
+						
+						[stratum_if_value key='preview-type' value='Property Preview']
+							<li class="realtor">[stratum_data key="realtors"]</li>
+							<li class="seller">[stratum_data key="seller"]</li>
+						[/stratum_if_value]
+						
 						[stratum_if_value key='preview-type' value='Rental Property Preview']
 							<li class="realtor">[stratum_data key="city"]</li>
+							<li class="seller">[stratum_data key="seller"]</li>
 						[/stratum_if_value]
-						<li class="seller">[stratum_data key="seller"]</li>
+						
+						[stratum_if_value key='preview-type' value='Seller Page Preview']
+							<!--<li class="seller">[stratum_data key="seller"]</li>-->
+						[/stratum_if_value]
 					</ul>
 				</div>
 				
