@@ -11,7 +11,7 @@
 	<div class="grid-x alignment-center">
 		<div class="cell medium-11 large-8">
 				<?php 
-					echo do_shortcode( '[stratum_search account=84 placeholder="Search" listing_url_template="https://eastoregonrealestate.com/listings/{{field:author}}/{{slug}}"]' );
+					echo do_shortcode( '[stratum_search account=84 placeholder="Search" listing_url_template="https://eastoregonrealestate.com/listing/{{field:author}}/{{slug}}"]' );
 				?>
 			</div>
 			<div class="cell medium-1 large-1 svg">

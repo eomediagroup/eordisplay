@@ -27,7 +27,7 @@
 			
 			<?php ob_start(); ?>
 			
-				[stratum_search account=<?= $spaccount ?> placeholder='<?= $spboxplaceholder ?>' listing_url_template='https://eastoregonrealestate.com/listings/{{field:author}}/{{slug}}']
+				[stratum_search account=<?= $spaccount ?> placeholder='<?= $spboxplaceholder ?>' listing_url_template='https://eastoregonrealestate.com/listing/{{field:author}}/{{slug}}']
 			
 				<?php if( have_rows('seller-page-parameters') ): // First load the repeater for search parameters ?>
 					
