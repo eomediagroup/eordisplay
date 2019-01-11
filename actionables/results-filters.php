@@ -18,7 +18,7 @@
 				[stratum_filters account=84 threshold=50]
 				
 				<ul class="tabs" data-tabs data-active-collapse="true" id="filter-actions">
-					<li class="tabs-title"><a id="filter-control" href="#filters" aria-selected="true">Filters
+					<li class="tabs-title is-active"><a id="filter-control" href="#filters" aria-selected="true">Filters
 						<div class="svg">
 							<?php get_template_part( 'assets/icons/svg/filter', 'icon' ); ?>
 						</div>
@@ -29,7 +29,7 @@
 				</ul>
 				
 				<div class="tabs-content" data-tabs-content="filter-actions">
-				<div class="tabs-panel" id="filters">
+				<div class="tabs-panel is-active" id="filters">
 					
 					<ul class="tabs" data-responsive-accordion-tabs="tabs small-accordion medium-accordion large-tabs" id="filter-tabs" data-allow-all-closed="true" data-multi-expand="true" data-active-collapse="true">
 						[stratum_if_filter key='latitude']<li class="tabs-title"><a href="#radius">Search Radius</a></li>[/stratum_if_filter]
