@@ -30,7 +30,6 @@
 		<li><a href="https://eastoregonrealestate.com/ruby-peak-realty/">Ruby Peak Realty</a></li>
 		<li><a href="https://eastoregonrealestate.com/seaquist-real-estate/">Seaquist Real Estate</a></li>
 		<li><a href="https://eastoregonrealestate.com/stellar-realty-northwest/">Stellar Realty Northwest</a></li>
-		<li><a href="https://eastoregonrealestate.com/universal-realty/">Universal Realty</a></li>
 		<li><a href="https://eastoregonrealestate.com/whitney-land-company/">Whitney Land Company</a></li>
 	</ul>
 </div>
