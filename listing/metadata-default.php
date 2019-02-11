@@ -196,7 +196,14 @@
 				</tr>
 			[/stratum_listing_has_value]
 			
-			<!-- Location -->
+			<!-- Location & Contact -->
+			
+			[stratum_listing_has_value account=84 key='phone-number']
+				<tr>
+					<td class="key">Phone</td>
+					<td class="value">[stratum_listing account=84 key='phone-number']</td>
+				</tr>
+			[/stratum_listing_has_value]
 			
 			[stratum_listing_has_value account=84 key='location-name']
 				[stratum_listing_multi account=84 key='location-name']
